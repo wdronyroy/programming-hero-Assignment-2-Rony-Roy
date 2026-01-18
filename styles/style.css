@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1b0b2f ;
+    color: #fff;
+}
+/* Navbar section styles start here...! */
+.nav-section{
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.nav-logo span{ 
+    background: linear-gradient(to right, #ff1ebf, #7f3cff, #ffd84d);
+   -webkit-background-clip: text;
+   color: transparent;
+}
+.list-item{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 25px;
+} 
+
+.list-item a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.list-item :hover{
+    color: red;
+}
+.nav-button{
+    background: linear-gradient(45deg, #ff3ec9, #7f3cff);
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 12.5px 16px;
+    cursor: pointer;
+}
+
+.nav-button:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+/* hero section Styles start from here */
+
+.hero-container {
+  background-image: url(../images/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  padding: 100px 20px;
+  row-gap: 25px;
+}
+
+.mic-circle{
+    width: 350px;
+    height: 350px;
+    background-image: url(../images/hero-circle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center
+}
+.mic-circle img{
+    margin-top: 80px;
+    align-items: center;
+    text-align: center;
+}
+.badge{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #000000;
+    background-color: #25eb60;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: -700px;
+    margin-right: -200px;
+    cursor: pointer;
+}
+
+.hero-container h1 {
+  font-size: 3.75rem;
+  font-weight: 800;
+}
+
+.hero-container p {
+    font-size: 1rem;
+    max-width: 520px;
+}
+.subscribe-button{
+    background-color: #1b0b2f;
+    color: #00ff88;
+    border: 1px solid #00ff88;
+    border-radius: 25px;
+    padding: 12.5px 16px;
+    cursor: pointer;
+}
