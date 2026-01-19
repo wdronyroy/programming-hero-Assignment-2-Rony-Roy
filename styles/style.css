@@ -348,11 +348,6 @@ body{
 
 
 
-
-
-
-
-
 /* Mobie Responsive Styles are here..! */
 @media screen and (max-width:767px) {
 
@@ -484,5 +479,32 @@ body{
     justify-content: center;
     margin: 0 auto;
 }
+/* Footer section Responsive */
+.footer-container{
+  background-image: url(../images/footer-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  margin-bottom: 20px;
+  padding: 20px 10px;
+  row-gap: 20px;
 }
-
+.items-footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+.footer-container h1{
+    font-size: 2.25rem;
+}
+.footer-container span{
+    background: linear-gradient(to right, #ff1ebf, #7f3cff, #ffd84d);
+   -webkit-background-clip: text;
+   color: transparent;
+}
+}
+/* Code End */
