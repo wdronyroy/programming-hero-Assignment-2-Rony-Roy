@@ -290,9 +290,52 @@ body{
 .toogle{
     display: flex;
 }
+/* Hero container style here */
+.hero-container {
+  background-image: url(../images/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  padding: 10px 5px;
+  row-gap: 25px;
+}
 .mic-circle{
+    margin-top: 80px;
+    width: 200px;
+    height: 200px;
+    background-image: url(../images/hero-circle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center
+}
+.mic-circle img{
+    height: 150px;
+    width: 100px;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
 
 }
+
+.badge{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000000;
+    background-color: #25eb60;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: -430px;
+    margin-right: -120px;
+    cursor: pointer;
+}
+
+
+
+
 /* About section responsive */
 .ratings{
     display: grid;
@@ -326,15 +369,30 @@ body{
    
 }
 /* Features section responsive */
+.box{
+    width: 400px;
+    height: 400px;
+    background:#1f0c3d;
+    border-radius:15px;
+    overflow:hidden;
+
+}
 .features-container h2{
     font-size: 2rem;
     font-weight: bold;
     margin: 30px;
     text-align: center;}
 .features-card{
+    max-width: 400px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.video iframe{
+  height:200px;
+  border:none;
 }
 }
 
