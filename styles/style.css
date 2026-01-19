@@ -112,8 +112,8 @@ body{
 
 /* About section styles are start from here */
 .about-container{
-    margin: 20px auto;
-    padding-bottom: 20px;
+    margin: 10px auto;
+    padding-bottom: 10px;
     text-align: center;
     align-items: center;
 }
@@ -130,18 +130,17 @@ body{
     width: 75%;
 }
 .ratings{
-    margin:0px 120px;
+    margin:0px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    padding: 20px;
+    gap: 10px;
+    padding: 10px;
     align-items: center;
     text-align: center;
     justify-content: center;
 }
 .items {
-    height: 150px;
-    width: 300px;
+
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -221,6 +220,6 @@ body{
 /* About section responsive */
 .ratings{
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
    }
 }
