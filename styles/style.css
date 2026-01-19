@@ -454,26 +454,22 @@ body{
     background-color: #230e3d;
 }
 .choose-container h1{
-    margin-bottom: -350px;
+    margin-bottom: -310px;
 }
 .types-techwaves{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
-    gap: 5px;
+    gap: 10px;
 }
 .big-card{
-    margin-top: 400px;
+    margin-top: 360px;
     border-radius: 10px;
     padding: 20px;
     grid-column: span 1;
 }
 .big-card img{
    margin-top: 0px;}
-.card-3{
-   
-}
-
 
 
 
