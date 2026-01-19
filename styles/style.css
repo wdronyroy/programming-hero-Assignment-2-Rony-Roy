@@ -235,12 +235,12 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     
 }
 .box{
-    width: 380px;
-    height: 340px;
+    width: 400px;
+    height: 380px;
     background:#1f0c3d;
     border-radius:15px;
     overflow:hidden;
@@ -269,6 +269,85 @@ body{
     margin: 15px;
     color: #00ff88;
 }
+
+/* Host sections styles start from here */
+.host-container h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 50px 0px;
+    align-items: center;
+    text-align: center;
+}
+.host-section{
+    background-color: #1f0c3d;
+    margin: 10px auto;
+    max-width: 1200px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+.host-image{
+    height: 200px;
+    width: 200px;
+}
+.host-content h3{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 5px 0px;
+    align-items: center;
+}
+.host-content p{
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 24px;
+}
+.social-host img{
+    margin-top: 10px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #533C72;
+    border-radius: 50%;
+    align-items: center;
+}
+/* Footer sections styles are here */
+.footer-container{
+    background-image: url(../images/footer-bg.png);
+    background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+    display: grid;
+  place-items: center;
+  padding: 100px 20px;
+  row-gap: 25px;
+}
+.items-footer{
+    display: flex;
+    gap: 15px;
+}
+.footer-container h1{
+    font-size: 3.25rem;
+}
+.footer-container span{
+    background: linear-gradient(to right, #ff1ebf, #7f3cff, #ffd84d);
+   -webkit-background-clip: text;
+   color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -317,9 +396,7 @@ body{
     margin-top: 20px;
     align-items: center;
     text-align: center;
-
 }
-
 .badge{
     font-size: 1rem;
     font-weight: 600;
@@ -332,10 +409,6 @@ body{
     margin-right: -120px;
     cursor: pointer;
 }
-
-
-
-
 /* About section responsive */
 .ratings{
     display: grid;
@@ -370,7 +443,7 @@ body{
 }
 /* Features section responsive */
 .box{
-    width: 400px;
+    width: 460px;
     height: 400px;
     background:#1f0c3d;
     border-radius:15px;
@@ -393,6 +466,23 @@ body{
 .video iframe{
   height:200px;
   border:none;
+}
+
+/* Host sections responsive start here */
+.host-section{
+    max-width: 450px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.host-image{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 }
 
