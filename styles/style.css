@@ -7,6 +7,11 @@ body{
     background-color: #1b0b2f ;
     color: #fff;
 }
+
+
+
+
+
 /* Navbar section styles start here...! */
 .nav-section{
     max-width: 1200px;
@@ -59,6 +64,10 @@ body{
 .toogle{
     display: none;
 }
+
+
+
+
 
 /* hero section Styles start from here */
 
@@ -118,6 +127,10 @@ body{
     cursor: pointer;
 }
 
+
+
+
+
 /* About section styles are start from here */
 .about-container{
     margin: 10px auto;
@@ -164,6 +177,10 @@ body{
     font-size: 1rem;
     padding: 10px;
 }
+
+
+
+
 
 /* Choose container styles are start from here */
 
@@ -220,6 +237,12 @@ body{
 }
 
 
+
+
+
+
+
+
 /* Features section styles are start from here */
     
 .features-container h2{
@@ -270,6 +293,14 @@ body{
     color: #00ff88;
 }
 
+
+
+
+
+
+
+
+
 /* Host sections styles start from here */
 .host-container h2{
     font-size: 3rem;
@@ -314,16 +345,22 @@ body{
     border-radius: 50%;
     align-items: center;
 }
+
+
+
+
+
 /* Footer sections styles are here */
 .footer-container{
     background-image: url(../images/footer-bg.png);
     background-size: cover;
-     background-position: center;
-     background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
     display: grid;
-  place-items: center;
-  padding: 100px 20px;
-  row-gap: 25px;
+    place-items: center;
+    padding: 100px 20px;
+    row-gap: 25px;
+    margin-bottom: 20px;
 }
 .items-footer{
     display: flex;
@@ -339,17 +376,10 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
 /* Mobie Responsive Styles are here..! */
 @media screen and (max-width:767px) {
+
+
 
 /* Header responsive for mobile device */
 .nav-section{
@@ -364,6 +394,8 @@ body{
 .toogle{
     display: flex;
 }
+
+
 /* Hero container style here */
 .hero-container {
   background-image: url(../images/hero-bg.png);
@@ -404,12 +436,17 @@ body{
     margin-right: -120px;
     cursor: pointer;
 }
+
+
+
 /* About section responsive */
 .ratings{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
    }
+
+
 
 /* Choose sections styles are start from here */
 .choose-container{
@@ -436,6 +473,10 @@ body{
 .card-3{
    
 }
+
+
+
+
 /* Features section responsive */
 .box{
     width: 460px;
@@ -463,6 +504,11 @@ body{
   border:none;
 }
 
+
+
+
+
+
 /* Host sections responsive start here */
 .host-section{
     max-width: 450px;
@@ -479,6 +525,11 @@ body{
     justify-content: center;
     margin: 0 auto;
 }
+
+
+
+
+
 /* Footer section Responsive */
 .footer-container{
   background-image: url(../images/footer-bg.png);
