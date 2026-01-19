@@ -160,17 +160,18 @@ body{
 /* Choose container styles are start from here */
 
 .choose-container{
-    padding: 160px 200px;
+    padding: 50px 100px;
     background-color: #230e3d;
 }
 .choose-container h1{
     text-align: center;
+    margin-bottom: 10px;
 }
 .types-techwaves{
     display: grid;
     gap: 5px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3 , 280px);
+    grid-template-rows: repeat(3 , 250px);
 
 }
 .big-card{
@@ -180,7 +181,7 @@ body{
     padding: 20px;
     grid-column: span 1;
     grid-row: span 2;
-    display: 100%;
+    /* display: 100%; */
 }
 .big-card img{
    margin-top: 150px;
@@ -211,9 +212,7 @@ body{
 }
 
 /* Mobie Responsive Styles are here..! */
-
-
-@media screen and (max-width:576px) {
+@media screen and (max-width:767px) {
 
 
 
@@ -221,5 +220,33 @@ body{
 .ratings{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
    }
+
+/* Choose sections styles are start from here */
+.choose-container{
+    padding: 10px 10px;
+    background-color: #230e3d;
+}
+.choose-container h1{
+    margin-bottom: -350px;
+}
+.types-techwaves{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 5px;
+}
+.big-card{
+    margin-top: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    grid-column: span 1;
+}
+.big-card img{
+   margin-top: 0px;}
+.card-3{
+   
+}
+
 }
