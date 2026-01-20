@@ -90,6 +90,11 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center
+    width- 300px;
+    transition: transform 0.4s ease;
+}
+.mic-circle :hover{
+    transform: scale(1.1);
 }
 .mic-circle img{
     margin-top: 80px;
@@ -126,8 +131,6 @@ body{
     padding: 12.5px 16px;
     cursor: pointer;
 }
-
-
 
 
 
@@ -323,7 +326,14 @@ body{
 }
 .host-image{
     height: 200px;
-    width: 200px;
+    width: 200px;    
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float{
+  0%{ transform: translateY(0); }
+  50%{ transform: translateY(-15px); }
+  100%{ transform: translateY(0); }
+
 }
 .host-content h3{
     font-size: 2rem;
@@ -520,6 +530,7 @@ body{
     text-align: center;
     justify-content: center;
     margin: 0 auto;
+
 }
 
 
